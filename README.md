@@ -3,5 +3,6 @@ One click deployment of [Doccano](https://github.com/chakki-works/doccano) on Az
 ![Doccano Named Entity Recognition](https://github.com/chakki-works/doccano/blob/master/docs/named_entity_annotation.gif)
 
 ### Click deploy to get started!
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
-
+<a href="https://azuredeploy.net/?repository=https://github.com/yusueliu/Doccano4Azure" target="_blank">
+    <img src="https://azuredeploy.net/deploybutton.png"/>
+</a>
