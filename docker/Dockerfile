@@ -1,9 +1,5 @@
 FROM python:3.6-alpine
 
-ENV admin_user="admin"
-ENV admin_email='optional'
-ENV admin_pass='password'
-
 RUN apk add --no-cache postgresql-libs && \
     apk add --no-cache --virtual .build-deps gcc git musl-dev postgresql-dev && \
     git clone https://github.com/chakki-works/doccano.git && \
